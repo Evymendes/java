@@ -1,6 +1,11 @@
 <template>
+<div>
+<h2>Exercicio Um</h2>
+<link href="exercicioUM.vue">
+</div>
 
 <div>
+<p>javascript:alert("Evelyn")</p>
 	<p>Variável: x = "hollo Word",		x = 10</p>
 	<p>String: "Hello Word"    'Hello Word'</p>
 	<p>Boolean: x = true, y = False, z = null, x = undefined</p>
@@ -28,14 +33,15 @@
   <p>
   	== igual a          5 == 5 TRUE       1 == 2 FALSE
   	!= diferente de     5 != 5 FALSE      1 != 2 TRUE
-  	var nome = 'fernando'
+
+  var nome = 'fernando'
 	var pessoa = 'paula'
 	nome == pessoa   resultado:  false
 
   </p>
   <p>
-  	=== Igual a, e do mesmo tipo		1 === '1'	FALSE     1 ==== 1 TRUE    pq 1= número  '1'=string
-  	!==  Diferente, mas do mesmo tipo	1 === '1'	TRUE      1 ==== 1 FALSE
+  	=== Igual a, e do mesmo tipo		   1 === '1'	FALSE     1 ==== 1 TRUE    pq 1= número  '1'=string
+  	!==  Diferente, mas do mesmo tipo	 1 === '1'	TRUE      1 ==== 1 FALSE
   </p>
   <p>
   	> maior		1 > 2  FALSE  	2 > 1 TRUE
